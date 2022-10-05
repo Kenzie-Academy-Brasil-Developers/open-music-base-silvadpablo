@@ -1,0 +1,35 @@
+.card {
+    width: var(--card-width);
+    height: var(--card-height);
+    border-radius: var(--radius-1);
+    margin-bottom: 38px;
+}
+
+.card-img {
+    width: var(--card-width);
+    height: var(--card-img-height);
+    border-radius: var(--radius-top);
+    background-color: var(--color-grey-5);
+}
+
+.card-info {
+    width: var(--card-width);
+    height: var(--card-info-height);
+    border-radius: var(--radius-bottom);
+    background-color: var(--color-grey-8);
+}
+
+.card .card-info:hover {
+    background-color: var(--color-grey-6);
+}
+
+/* .dard-info-dark {
+    background-color: var(--color-grey-1);
+}
+
+.dard-info-dark:hover {
+    background-color: var(--color-grey-2);
+} */
+
+
+

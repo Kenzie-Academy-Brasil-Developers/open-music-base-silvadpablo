@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/reset.css" />
+    <link rel="stylesheet" href="./styles/globalStyles.css" />
+    <link rel="stylesheet" href="./styles/displays.css" />
+    <link rel="stylesheet" href="./styles/buttons.css" />
+    <link rel="stylesheet" href="./styles/text.css" />
+    <link rel="stylesheet" href="./styles/input.css" />
+    <link rel="stylesheet" href="./styles/card.css" />
+    <link rel="stylesheet" href="./pages/home/index.css" />
+    <title>Open Music</title>
+  </head>
+  <body>
+    <header class="container flex justify-between items-center">
+      <p>open music</p>
+      <button id="btn-dark" class="btn-dark"><img id="icon" class="btn-dark" src="./assets/img/moon.png" alt="light-dark-icon"></button>
+    </header>
+    <main class="container flex flex-col">
+      
+      <section class="flex flex-col">
+        <div><p class="title-2">Genero Musical</p></div>
+        <div>
+          <ul id="genre-list" class="flex justify-start wrap">
+            <li><button id="genre-todos" class="btn btn-filter">Todos</button></li>
+          </ul>
+        </div>
+      </section>
+      
+      <section>
+        <div class="flex justify-between items-center">
+          <label for="range" class="title-2">Definir Preço</label>
+          <p id="range-value" class="title-3">Até R$ 89</p>
+        </div>
+        <input class="input" type="range" name="range" id="range" value="89" min="0" max="200">
+      </section>
+      
+      <section>
+        <div><p class="title-2">Albuns Encontrados</p></div>
+          <ul id="all-cards" class="flex wrap justify-between">
+          </ul>
+      </section>
+    </main>
+    <script src="./scripts/dark-mode.js"></script>
+    <script src="./pages/home/productsData.js"></script>
+    <script src="./scripts/render.js"></script>
+    <script src="./scripts/filter.js"></script>
+    <script src="./pages/home/index.js"></script>
+  </body>
+</html>

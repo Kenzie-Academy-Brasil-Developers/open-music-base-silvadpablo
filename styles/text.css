@@ -1,0 +1,72 @@
+header p {
+    margin-top: 77px;
+    margin-bottom: 62px;
+    font-size: var(--font-1);
+    line-height: 34px;
+    font-weight: var(--font-weight-1);
+    color: var(--color-grey-1);
+}
+
+.text-white {
+    color: var(--color-grey-1);
+}
+
+.title-2 {
+    font-size: var(--font-2);
+    font-weight: var(--font-weight-1);
+    line-height: var(--line-height-2);
+    color: var(--color-grey-1);
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.title-3 {
+    font-size: var(--font-2);
+    font-weight: var(--font-weight-2);
+    line-height: var(--line-height-2);
+    color: var(--color-grey-1);
+}
+
+.info-year-band {
+    font-size: var(--font-3);
+    color: var(--color-grey-2);
+    line-height: var(--line-height-3);
+    font-weight: var(--font-weight-2);
+    margin-right: 20px;
+    margin-left: var(--margin-card-info);
+    color: var(--color-grey-1);
+}
+
+
+.info-title {
+    font-size: var(--font-2);
+    color: var(--color-grey-0);
+    line-height: var(--line-height-1);
+    font-weight: var(--font-weight-1);
+    margin-left: var(--margin-card-info);
+    
+    color: var(--color-grey-1);
+}
+
+.info-price {
+    font-size: var(--font-2);
+    color: var(--color-grey-0);
+    line-height: var(--line-height-2);
+    font-weight: var(--font-weight-1);
+    margin-left: var(--margin-card-info);
+    color: var(--color-grey-1);
+}
+
+/* .info-year-band-dark {
+    color: var(--color-grey-6);
+}
+
+.info-dark {
+    color: var(--color-white-fixed);
+} */
+
+.text-1 {
+    font-size: var(--font-2);
+    font-weight: var(--font-weight-1);
+    line-height: var(--line-height-2);
+}

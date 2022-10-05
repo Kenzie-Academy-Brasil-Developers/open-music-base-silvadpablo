@@ -1,11 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Nunito:wght@600&display=swap");
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 :root {
   --color-brand-1:#9747ff;
   --color-grey-0: #15171a;
@@ -23,17 +17,53 @@
   --color-actived-fixed: #2b2f33;
   --color-white-fixed: #ffffff;
 
+  --card-width: 308px;
+  --card-height: 259px;
+  --card-img-height: 113px;
+  --card-info-height: 146px;
+  
+  --font-family: "Inter", sans-serif;
+  --font-style: normal;
+
   --font-1: 1.75rem;
+  --font-weight-1: 600;
+  --line-height-1: 1.19rem;
   --font-2: 1rem;
+  --line-height-2: 1.06rem;
   --font-3: 0.875rem;
+  --line-height-3: 0.94rem;
+  --font-weight-2: 500;
 
   --radius-1: 0.25rem;
+  --radius-top: 0.25rem 0.25rem 0px 0px;
+  --radius-bottom: ;
   --container: 45rem;
+
+  --padding-button-1: 8px;
+  --border-button: 1px solid;
+  --margin-button: 30px;
+
+  --margin-card-info: 16px;
+}
+
+.dark-mode {
+  --color-brand-1:#9747ff;
+  --color-grey-0: #fdfeff;
+  --color-grey-1: #f8f9fa;
+  --color-grey-2: #f1f3f5;
+  --color-grey-3: #dee2e6;
+  --color-grey-4: #ced4da;
+  --color-grey-5: #adb5bd;
+  --color-grey-6: #868e96;
+  --color-grey-7: #2b2f33;
+  --color-grey-8: #212529;
+  --color-grey-9: #15171a;
 }
 
 body {
-  font-family: "Inter", sans-serif;
-  font-style: normal;
+  transition: 0.2s ease;
+  font-family: var(--font-family);
+  font-style: var(--font-style);
   -webkit-font-smoothing: antialiased;
   background-color: var(--color-grey-9);
 }

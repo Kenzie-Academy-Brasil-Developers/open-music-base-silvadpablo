@@ -1,0 +1,42 @@
+.btn {
+    font-family: var(--font-family);
+    font-style: var(--font-style);
+    font-size: var(--font-2);
+    color: var(--color-grey-2);
+    font-weight: var(--font-weight-2);
+    background-color: var(--color-grey-7);
+    padding: var(--padding-button-1);
+    border: var(--border-button) var(--color-grey-7);
+    border-radius: var(--radius-1);
+    margin-right: var(--margin-button);
+    margin-bottom: var(--margin-button);
+}
+
+
+.btn:focus:active {
+    background-color: var(--color-grey-1);
+    border-color: var(--color-grey-1);
+    color: var(--color-grey-9);
+}
+
+.btn-light-selected {
+    background-color: var(--color-grey-1);
+    border-color: var(--color-grey-1);
+    color: var(--color-grey-9);
+}
+
+.btn-buy {
+    margin-right: 16px;
+}
+
+.btn-dark {
+    font-family: var(--font-family);
+    font-style: var(--font-style);
+    font-size: var(--font-2);
+    color: var(--color-grey-2);
+    font-weight: var(--font-weight-2);
+    background-color: var(--color-grey-7);
+    padding: var(--padding-button-1);
+    border: var(--border-button) var(--color-grey-7);
+    border-radius: var(--radius-1);
+}
